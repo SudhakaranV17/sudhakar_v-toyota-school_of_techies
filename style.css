@@ -7,7 +7,7 @@
     src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 body{
-    margin: auto;
+    margin: 0;
 }
 /* navigation styles */
 .navbar{
