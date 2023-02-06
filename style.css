@@ -1,0 +1,593 @@
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    margin: 0px;
+}
+/* navigation styles */
+.navbar{
+    width: auto;
+    max-height: 70px;
+    border-bottom: 1px solid;
+    
+}
+.navbar .logo img{
+    margin-left: 12%;
+    max-width: 96px;
+    max-height: 96px;
+}
+.navicon i{
+    font-size: 1.6rem;
+    float:right;
+    margin-top: -45px;
+    margin-right: 13%;
+    /* border: 1px solid; */
+}
+/* car image 1 */
+.carimg-1 #car-1{
+    width: 810px;
+    height: 281px;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;    
+    /* min-height: 281px;
+    min-width: 380px; */
+    display: flex;
+    text-align: center;   
+    /* border: 1px solid black; */
+   
+}
+.car-1-details{
+    
+    /* border: 1px solid; */
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.6;
+    text-align: center;
+}
+.car-1-details h1{
+    font-family: oswald;
+    font-size: 4.5rem;
+    margin: 35px 20px 0;
+    line-height: 1.1;
+    font-weight: 700;
+    padding: 0;
+}
+.car-1-details p{
+    font-family: opensans;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 20px 20px 25;
+    word-wrap: break-word;
+    
+}
+
+/* CAR-2 STYLING {LEFT}*/
+.carimg-2{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: right;
+    height: 580px;
+    
+}
+img#car-2{
+    width: calc(((100% - 1140px) / 2) + 656px);
+    height: 464px;
+    /* border: 1px solid; */
+    object-position: 100% 0%;
+    object-fit: cover;
+    margin-top: 8.5%;
+    margin-bottom: 10%;
+    position: relative;
+}
+img#logo-png-black{
+    width: 70px;
+    height: 60px;
+    /* border: 1px solid; */
+    position: relative;
+    top: 500px;
+    left: -670px;
+    opacity: 0.3;
+}
+.car-2-details{
+    /* border: 1px solid; */
+    margin-left: 25px;
+    margin-right: 200px;
+    word-wrap: break-word;
+}
+.car-2-details h2{
+    /* border: 1px solid; */
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 2.25rem;
+    background-size: cover;
+    margin-top: -10px;
+    position: relative;
+}
+.car-2-details p{
+    font-family: opensans;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 30px;
+    padding-top: 12px;
+    font-style: italic;
+}
+.car-2-details img{
+    position: relative;
+    top: 120px;
+    left: -60px;
+}
+.car-2-details #lmbtn{
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background: linear-gradient(to right,#85ABEC 0%,#CD84FA 100%);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-top: 33px;
+    margin-left: 40px;
+}
+
+/* CAR 3 STYLING {RIGHT}*/
+.carimg-3{
+    display: flex;
+    height: 580PX;
+    margin-top: 180px;
+    /* border: 1px solid; */
+}
+.car-3-details h2{
+    font-family: oswald;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    font-weight: 700;
+    width: 270px;
+    word-wrap: break-word;
+    margin-left: 200px;
+    /* border: 1px solid; */
+}
+.car-3-details p{
+    /* border: 1px solid; */
+    font-family: opensans;
+    font-style: italic;
+    line-height: 1.6;
+    word-wrap: break-word;
+    width: 335px;
+    height: 178px;
+    margin-left: 200px;
+    
+}
+.carimg-3 img{
+    width: calc(((100% - 1140px) / 2) + 652px);
+    height: 464px;
+    /* border: 1px solid; */
+    object-position: 0 100%;
+    object-fit: cover;
+    margin-top: 1.5%;
+    margin-left: 9.3%;
+    position: relative;
+}
+#lmbtn-black{
+    margin-left: 204PX;
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.9;
+}
+/* CAR -4 {RIGHT}*/
+.carimg-4{
+    display: flex;
+    height: 580PX;
+    margin-top: 35px;
+    /* border: 1px solid; */
+}
+/* HEADING */
+.car-4-details h2{
+    font-family: oswald;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    font-weight: 700;
+    width: 350px;
+    height: 76px;
+    margin-left: 211px;
+    position: relative;
+    margin-top: 80px;
+    /* border: 1px solid; */
+}
+/* PARAGRAPH */
+.car-4-details p{
+    /* border: 1px solid; */
+    font-family: opensans;
+    font-style: italic;
+    line-height: 1.6;
+    word-wrap: break-word;
+    width: 330px;
+    height: 225px;
+    margin-left: 242px;
+    margin-top: 50px;
+    
+    
+}
+/* MAIN IMAGE */
+.carimg-4 #car-4-img{
+    width: 949px;
+    height: 464px;
+    /* border: 1px solid; */
+    object-position: 0 100%;
+    object-fit: cover;
+    margin-top: 1.5%;
+    margin-right: -70px;
+    position: relative;
+}
+/* LEARN MORE BUTTON */
+#lmbtn-car4{
+    margin-left: 244PX;
+    margin-top: 30px;
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background: linear-gradient(to right,#85ABEC 0%,#CD84FA 100%);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.9;
+}
+/* HEADING PNG */
+.car-4-details #headingpng{
+    position: absolute;
+    left: 145px;
+
+}
+/* LOGO */
+.carimg-4 img#logo-png-black{
+    width: 70px;
+    height: 60px;
+    /* border: 1px solid; */
+    position: relative;
+    top: 400px;
+    left: -260px;
+    opacity: 0.3;
+}
+
+
+/* CAR - 5 {RIGHT} */
+.carimg-5{
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+    height: 580px;
+    /* border: 1px solid; */
+    
+}
+img#car-5{
+    width: calc(((100% - 1140px) / 2) + 710px);
+    height: 636px;
+    /* border: 1px solid black; */
+    object-fit: cover;
+    object-position: 90% 10%;   
+    margin-top: 3.5%;
+    margin-bottom: 10%;
+    position: relative;
+}
+.car-5-details{
+    /* border: 1px solid; */
+    margin-left: 155px;
+    margin-right: 200px;
+    margin-top: 190px;
+    word-wrap: break-word;
+}
+.car-5-details h2{
+    /* border: 1px solid; */
+    width: 390px;
+    height:81px;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    background-size: cover;
+    margin-top: -10px;
+    position: relative;
+}
+.car-5-details p{
+    width: 396px;
+    height: 202px;
+    font-family: opensans;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 0px;
+    padding-top: 5px;
+    font-style: italic;
+    /* border: 1px solid; */
+}
+.car-5-details #lmbtn{
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.8;
+    margin-top: 33px;
+    margin-left: -1px;
+
+}
+
+/* ABOUT*/
+.about{
+    /* border: 1px solid; */
+    width: 99.9%;
+    height: 589px;
+    margin-top: 151px;
+    background: linear-gradient(to right,#3BCBD1 0%,#C887F9 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus p{
+    /* border: 1px solid black; */
+    width: 480px;
+    height: 305px;
+    margin-left: 208px;
+    padding-top: 140px;
+    font-family: opensans;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #F5FCFD;
+}
+.about img#aboutpng{
+    /* border: 1px solid; */
+    float: right;
+    margin-top: 125px;
+    position: relative;
+    left: 154.2px;
+    
+
+}
+.about h2{
+    /* border: 1px solid; */
+    height: 135px;
+    margin-left: -220px;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    position: relative;
+    right: 80px;
+    top: 150px;
+}
+.aboutpage #about-lmbtn{
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.8;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 310px;
+}
+
+/* IMAGE 6 {RIGHT} */
+/* CAR-6 STYLING {LEFT}*/
+.carimg-6{
+    margin-top: -120px;
+    display: flex;
+    justify-content: right;
+    height: 580px;
+    width: 99.8%;
+    /* border: 1px solid; */
+    position: relative;
+    top: -37px;
+    
+}
+img#car-6{
+    width: calc(((100% - 1140px) / 2) + 700px);
+    height: 580px;
+    /* border: 1px solid; */
+    object-position: 100% 0%;
+    object-fit: cover;
+    position: relative;
+}
+img#logo-png-black{
+    width: 70px;
+    height: 60px;
+    /* border: 1px solid; */
+    position: relative;
+    top: 500px;
+    left: -670px;
+    opacity: 0.3;
+}
+.car-6-details{
+    /* border: 1px solid; */
+    margin-left: 45px;
+    margin-right: 200px;
+    word-wrap: break-word;
+}
+.car-6-details h2{
+    /* border: 1px solid; */
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 2.25rem;
+    background-size: cover;
+    margin-top: -10px;
+    position: relative;
+}
+.car-6-details p{
+    /* border: 1px solid; */
+    height: 72px;
+    width: 340px;
+    font-family: opensans;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-style: italic;
+}
+.car-6-details img{
+    position: relative;
+    top: 120px;
+    left: -60px;
+}
+.car-6-details #lmbtn{
+    width: 140px;
+    height: 37px;
+    border-radius: 20px ;
+    border: 0px;
+    background: linear-gradient(to right,#85ABEC 0%,#CD84FA 100%);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+
+/* AFTER ABOUT */
+/* .afterabove{
+    border: 1px solid;
+} */
+.afterabove h2{
+    /* border: 1px solid; */
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 2.25rem;
+    background-size: cover;
+    position: relative;
+    left: 272px;
+    bottom: 30px;
+    width: 376px;
+}
+.afterabove p{
+    font-family: opensans;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 30px;
+    height: 75px;
+    width: 679px;
+    font-style: normal;
+    position: relative;
+    left: 240px;
+    bottom: 30px;
+}
+.afterabove img{
+    position: relative;
+    left: 210px;
+    top: 90px;
+}
+
+/* DISPLAY FLEX TO SHOW 6 IMAGES */
+.box-1 ,.box-2{
+    display: inline-flex;
+    height: 335px;    
+}
+.box-1 img, .box-2 img{
+    width: 379.5px;
+}
+
+/* LAST STYLING */
+.last{
+    width: 100%;
+    height: 374px;
+    margin-top: -10px;
+    margin-left: -1px;
+    background-color: #2B2933;
+    color: white;
+    /* border: 1px solid; */
+}
+.last img{
+    width: 75px;
+    height: 75px;
+    margin-left: 47.5%;
+    margin-right: 45%;
+    margin-top: 65px;
+    opacity: 0.5;
+    
+}
+.headlines{
+    display: flex;
+    /* border: 1px solid; */
+    
+    
+}
+.dummyhead-1 h6,.dummyhead-2 h6,.dummyhead-3 h6{
+    font-family: oswald;
+    font-size: 1.125rem;
+    font-weight: 700;
+    position: relative;
+}
+.dummyhead-1 p,.dummyhead-2 p,.dummyhead-3 p{
+    font-family: opensans;
+    font-size: 0.875rem;
+    position: relative;
+    top: -20px;
+    font-weight: 400;
+}
+.dummyhead-1{
+    /* border: 1px solid; */
+    margin-left: 190px;
+
+}
+.dummyhead-2{
+    /* border: 1px solid; */
+    margin-left: 250px;
+
+}
+.dummyhead-3{
+    /* border: 1px solid; */
+    margin-left: 310px;
+
+}
+.icons a{
+    color: white;
+    letter-spacing: 8px;
+    position: relative;
+    top: 20px;
+    left: 700px;
+}
+/* CREDITS */
+
+.credits{
+    text-align: center;
+    width: 100%;
+    height: 99px;
+    position: absolute;
+    background-color: rgb(51,51,51);
+    color: white;
+    padding-top: 30px;
+
+}
+
+.credits a{
+    color: rgb(142,189,200);
+}
+#bottomline{
+    /* border: 20px solid; */
+    height: 50px;
+    font-size: small;
+   padding-top: 35px;
+}
